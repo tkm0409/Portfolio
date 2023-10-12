@@ -1,0 +1,24 @@
+
+
+.skill-container {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.skill-name {
+    font-size: 20px;
+    margin: 0;
+}
+
+.skill-details {
+    font-size: 16px;
+}
+
+.alternate {
+    align-items: flex-end;
+    text-align: right;
+    background-color: #f2f2f2;
+}
+
+/* Apply additional styling as needed */

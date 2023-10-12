@@ -1,0 +1,180 @@
+/* Header styles */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    transition: background-color 0.5s;
+}
+
+header:hover {
+    background-color: #444;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: right;
+    margin-right: 80px;
+    padding: 0;
+}
+
+/* CSS for the logo */
+.logo {
+    position: absolute;
+    margin-top: -5px;
+    top: 20px;
+    left: 20px;
+    display: flex;
+    /* Use flexbox to position elements side by side */
+    align-items: center;
+    /* Center elements vertically */
+}
+
+.logo img {
+    border-radius: 50px;
+    width: 50px;
+    height: auto;
+    margin-right: 10px;
+    /* Adjust the space between the image and text */
+}
+
+.logo span {
+    margin-left: 5px;
+    font-size: 18px;
+    /* Adjust the font size as needed */
+    font-weight: bold;
+    /* Apply bold styling if desired */
+    color: rgb(247, 149, 68);
+    /* Set the text color */
+    /* z-index: 999; */
+}
+
+nav li {
+    margin: 0 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: color 0.3s;
+    /* Very smooth transition */
+}
+
+nav a:hover {
+    background-color: #fff;
+    color: rgb(247, 149, 68);
+    transition: background-color 0.5s, color 0.3s;
+    /* Very smooth transition */
+}
+
+/* Mobile Menu Styles */
+.menu-icon {
+    display: none;
+    /* Hide the menu icon by default on desktop */
+    cursor: pointer;
+    padding: 10px;
+}
+
+.bar {
+    width: 30px;
+    height: 3px;
+    background-color: #fff;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+
+/* Show/hide the navigation items when menu is open */
+nav.open ul {
+    display: block;
+    position: absolute;
+    top: 70px;
+    right: 0;
+    background-color: #333;
+    width: 100%;
+    text-align: center;
+    flex-direction: column;
+}
+
+nav.open .menu-icon .bar:nth-child(1) {
+    transform: rotate(-45deg) translate(-5px, 6px);
+}
+
+nav.open .menu-icon .bar:nth-child(2) {
+    opacity: 0;
+}
+
+nav.open .menu-icon .bar:nth-child(3) {
+    transform: rotate(45deg) translate(-5px, -6px);
+}
+
+/* Media query for mobile devices */
+@media (max-width: 768px) {
+    /* Hide navigation items on mobile devices by default */
+    nav ul {
+        display: none;
+    }
+
+    /* Show the menu icon on mobile devices */
+    .menu-icon {
+        display: block;
+    }
+
+    header {
+        padding: 10px 0;
+    }
+
+    /* Style the open navigation menu */
+    nav.open ul {
+        display: flex;
+        position: absolute;
+        background-color: rgba(255, 99, 71, 0.801);
+        width: 100%; /* Use a percentage to fill the screen width */
+        left: 0;
+        top: 100%; /* Position the menu below the header */
+        margin: 0; /* Remove margin for better spacing */
+        padding: 10px; /* Add padding for spacing inside the menu */
+        border-radius: 5px;
+        flex-direction: column;
+    }
+
+    /* Style individual menu items */
+    nav.open ul li {
+        margin: 0; /* Reset margin to ensure consistent spacing */
+        padding: 10px 0; /* Add padding for spacing between items */
+        text-align: center;
+        border-bottom: 1px solid #fff; /* Add a separator between menu items */
+    }
+
+    nav.open ul li:hover {
+        background: rgba(255, 255, 255, 0.212);
+    }
+
+    /* Adjust the logo styles */
+    .logo {
+        margin-top: -10px; /* Adjust margin for proper spacing */
+        margin-left: 25px; /* Reset margin to align with the menu */
+        order: 2;
+    }
+
+    .logo img {
+        margin: 0 auto; /* Center the image horizontally */
+        display: block; /* Remove any inherited inline display style */
+    }
+
+    .logo span {
+        margin-left: 5px;
+         /* Remove margins for consistency */
+        font-size: 18px; /* Adjust the font size as needed */
+        font-weight: bold; /* Apply bold styling if desired */
+        color: rgb(247, 149, 68); /* Set the text color */
+    }
+}
+

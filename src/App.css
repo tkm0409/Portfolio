@@ -1,0 +1,63 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+
+
+
+/* About Me, Skills, and Contact styles */
+section {
+  padding: 40px 20px;
+}
+
+h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  margin: 10px 0;
+}
+
+/* Light mode styles */
+.light-mode {
+  /* Add your light mode styles here */
+  background-color: white;
+  color: #333;
+}
+
+/* Dark mode styles */
+.dark-mode {
+  /* Add your dark mode styles here */
+  background-color: #333;
+  color: #fff;
+}
+
+/* Add specific styles for the mode toggle icon */
+/* Toggle icon styles */
+.mode-toggle {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  font-size: 24px;
+  cursor: pointer;
+  z-index: 2;
+  color: #333; /* Default color for the icon */
+
+  /* Transition for smooth mode change and hover effect */
+  transition: color 0.5s;
+}
+
+/* Hover effect for the toggle icon */
+.mode-toggle:hover {
+  border-radius: 50px;
+  background-color: rgba(255, 255, 255, 0.548); /* Adjust the color on hover for a subtle effect */
+}
+

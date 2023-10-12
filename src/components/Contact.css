@@ -1,0 +1,70 @@
+/* Contact.css */
+.contact-container {
+    /* max-width: 600px; */
+    margin: 5%;
+    margin-left: 25%;
+    padding: 20px;
+    /* background-color: #f4f4f4; */
+    border-radius: 10px;
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+    text-align: left; /* Align text to the left */
+  }
+  
+  h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px; /* Add some spacing below the heading */
+  }
+  
+  .contact-info {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap; /* Enable wrapping items to the next row */
+  }
+  
+  .contact-item {
+    width: 50%; /* Two items in each row */
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+    transition: transform 0.2s;
+  }
+  
+  .contact-item:hover {
+    transform: scale(1.01);
+    cursor: pointer; /* Add a pointer cursor on hover */
+  }
+  
+  .contact-icon {
+    font-size: 24px;
+    margin-right: 10px;
+    color: #007BFF;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #0099ff; /* Change link color to match the icon */
+    transition: color 0.2s; /* Smooth transition for link color */
+  }
+  
+  a:hover {
+    color: #ebb181; /* Darken link color on hover */
+  }
+  
+  /* Media query for mobile responsiveness */
+  @media (max-width: 768px) {
+    .contact-container {
+      max-width: 100%;
+      padding: 10px;
+    }
+  
+    .contact-item {
+      width: 100%; /* Display one item per row on mobile */
+      text-align: center;
+    }
+  
+    .contact-icon {
+      margin: 10px 0;
+    }
+  }
