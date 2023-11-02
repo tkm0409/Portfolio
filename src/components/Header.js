@@ -10,6 +10,10 @@ const Header = () => {
     setMenuOpen(!menuOpen);
   };
 
+  const preventContextMenu = (e) => {
+    e.preventDefault();
+}
+
   useEffect(() => {
     // Function to handle window resize and hide menu items on desktop
     const handleResize = () => {
@@ -36,7 +40,7 @@ const Header = () => {
           <div className={`bar ${menuOpen ? 'open' : ''}`}></div>
         </div>
         <div className='logo'>
-          <img src={image} alt="Logo" />
+          <img src={image} alt="Logo" draggable="false" onContextMenu={preventContextMenu}/>
           <span>Portfolio</span>
         </div>
         <ul>

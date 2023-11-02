@@ -8,6 +8,7 @@ import Skills from './components/Skills';
 import Contact from './components/Contact';
 import { Link, Element } from 'react-scroll';
 import image from './image.png';
+import CertificationsList from './components/CertificationsList';
 
 
 function App() {
@@ -32,6 +33,7 @@ function App() {
         <Skills />
       </Element>
       <Element name="about">
+        <CertificationsList />
         <AboutMe />
       </Element>
       <Element name="contact">

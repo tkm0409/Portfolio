@@ -4,10 +4,14 @@ import './Landing.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCode, faDatabase, faDesktop, faUser } from '@fortawesome/free-solid-svg-icons';
 
+const preventContextMenu = (e) => {
+    e.preventDefault();
+}
+
 const Landing = () => {
     return (
         <section id="landing">
-            <img src={landingImage} alt="Developer" />
+            <img src={landingImage} alt="Developer" draggable="false" onContextMenu={preventContextMenu} />
             <div className="landing-text">
                 <h1 className='developer-name'>Tharun Kumar Maddala</h1>
                 <p className="developer-title">Microsoft Full-Stack Developer</p>
