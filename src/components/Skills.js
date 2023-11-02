@@ -70,7 +70,7 @@ const Skills = () => {
 
   return <>
     <div className="skill-bar">
-      <img src={skills} alt="Skills title image" draggable="false" onContextMenu={preventContextMenu} />
+      <img src={skills} alt="Skills" draggable="false" onContextMenu={preventContextMenu} />
       <h3>Skills</h3>
     </div>
     <div className="skills">{renderSkills()}</div>

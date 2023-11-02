@@ -8,6 +8,7 @@ import Skills from './components/Skills';
 import Contact from './components/Contact';
 import { Element } from 'react-scroll';
 import CertificationsList from './components/CertificationsList';
+import WorkExperience from './components/WorkExperience';
 
 
 function App() {
@@ -26,19 +27,33 @@ function App() {
       <div className="mode-toggle" onClick={toggleDarkMode}>
         {isDarkMode ? '🌞' : '🌙'}
       </div>
+
       <Header />
+
       <Landing />
+
       <Element name="skills">
         <Skills />
       </Element>
-      <Element name="about">
+
+      <Element name="certifications">
         <CertificationsList />
+      </Element>
+
+      <Element name="experience">
+        <WorkExperience />
+      </Element>
+
+      <Element name="about">
         <AboutMe />
       </Element>
+
       <Element name="contact">
         <Contact />
       </Element>
+
       <Footer />
+      
     </div>
   );
 }

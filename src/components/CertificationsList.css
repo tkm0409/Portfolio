@@ -8,6 +8,15 @@
     margin: 20px;
 }
 
+.certifications-title{
+    text-align: center;
+    color: #F79544;
+    font-size: 18px;
+    /* Adjust the font size as needed */
+    margin-top: 10px;
+    /* Add some space between the image and the heading */
+}
+
 .title {
     font-size: 18px;
     font-weight: bold;
@@ -71,4 +80,13 @@
     background-color: #005FAD;
     /* Darker blue on hover */
     transition: background-color 0.3s;
+}
+
+.awards-logo {
+    display: block;
+    /* This makes the image a block element to apply margins */
+    margin: 0 auto;
+    /* Center the image horizontally */
+    height: 50px;
+    width: 50px;
 }
