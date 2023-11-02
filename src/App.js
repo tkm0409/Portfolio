@@ -6,8 +6,7 @@ import Landing from './components/Landing';
 import AboutMe from './components/AboutMe';
 import Skills from './components/Skills';
 import Contact from './components/Contact';
-import { Link, Element } from 'react-scroll';
-import image from './image.png';
+import { Element } from 'react-scroll';
 import CertificationsList from './components/CertificationsList';
 
 
