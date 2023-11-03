@@ -21,8 +21,8 @@ const WorkExperience = () => {
 
                 {
                     title: 'Associate Software Engineer',
-                    startDate: 'May 2022',
-                    endDate: 'Sep 2022',
+                    startDate: 'Sep 2022',
+                    endDate: 'Present',
                     location: 'Chennai, Tamil Nadu, India',
                     skills: ['Automation Anywhere', 'pytest', 'fastAPI', 'Python'],
                 },
