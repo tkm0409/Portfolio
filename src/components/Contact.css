@@ -83,12 +83,12 @@ a:hover {
   .contact-container {
     max-width: 100%;
     padding: 10px;
+    margin-left: 0; /* Remove left margin to center the container */
   }
 
   .contact-item {
     width: 100%;
-    /* Display one item per row on mobile */
-    text-align: center;
+    text-align: center; /* Center-align the items */
   }
 
   .contact-icon {

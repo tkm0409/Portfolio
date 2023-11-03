@@ -61,7 +61,7 @@ const Header = () => {
           </li>
           <li>
             <Link to="about" smooth={true} duration={500}>
-              About
+              Education
             </Link>
           </li>
           <li>
