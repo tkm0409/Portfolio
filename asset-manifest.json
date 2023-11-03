@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.126bce0f.css",
-    "main.js": "/Portfolio/static/js/main.e8d8daa5.js",
+    "main.css": "/Portfolio/static/css/main.bda11252.css",
+    "main.js": "/Portfolio/static/js/main.cea4acf8.js",
     "static/js/787.1ed0c42c.chunk.js": "/Portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/image.png": "/Portfolio/static/media/image.765ae752446d6a0eb08d.png",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "/Portfolio/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
@@ -16,18 +16,19 @@
     "static/media/Cohesive-image (2).png": "/Portfolio/static/media/Cohesive-image (2).60ace5dc51204f306ac2.png",
     "static/media/fontawesome-webfont.woff2?v=4.7.0": "/Portfolio/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
     "static/media/Cohesive-image (1).png": "/Portfolio/static/media/Cohesive-image (1).bf655c5bafdcc92448cd.png",
+    "static/media/graduation-cap.png": "/Portfolio/static/media/graduation-cap.e481f832785022a27d03.png",
     "static/media/experience.png": "/Portfolio/static/media/experience.8a3af56fd2cb4b71a5f9.png",
     "static/media/hexaware.png": "/Portfolio/static/media/hexaware.30cfc2ec210120f338dd.png",
     "static/media/creative-thinking.png": "/Portfolio/static/media/creative-thinking.2977a9cb6f15b4707564.png",
     "static/media/contact.png": "/Portfolio/static/media/contact.8c6b09eaccfea3972bb7.png",
     "static/media/logo.png": "/Portfolio/static/media/logo.163610988bd330e26df6.png",
     "index.html": "/Portfolio/index.html",
-    "main.126bce0f.css.map": "/Portfolio/static/css/main.126bce0f.css.map",
-    "main.e8d8daa5.js.map": "/Portfolio/static/js/main.e8d8daa5.js.map",
+    "main.bda11252.css.map": "/Portfolio/static/css/main.bda11252.css.map",
+    "main.cea4acf8.js.map": "/Portfolio/static/js/main.cea4acf8.js.map",
     "787.1ed0c42c.chunk.js.map": "/Portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.126bce0f.css",
-    "static/js/main.e8d8daa5.js"
+    "static/css/main.bda11252.css",
+    "static/js/main.cea4acf8.js"
   ]
 }
