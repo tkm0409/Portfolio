@@ -4,6 +4,10 @@ import awsLogo from '../assets/logo.png'; // Import your AWS logo image
 import microsoftLogo from '../assets/microsoft.png'; // Import your Microsoft logo image
 import hackerrankLogo from '../assets/hackerrank logo.jpg'; // Import your HackerRank logo image
 import awards from '../assets/award.png';
+import microsoftFundamentals from '../assets/microsoft-certified-fundamentals-badge.svg';
+import microsoftAssociate from '../assets/microsoft-certified-associate-badge.svg';
+import microsoftExpert from '../assets/microsoft-certified-expert-badge.svg';
+
 
 const LicenseCertification = ({ title, issuingOrganization, issueDate, expirationDate, credentialId, logo, credentialURL }) => (
     <div className="license-certification">
@@ -32,6 +36,14 @@ const LicenseCertification = ({ title, issuingOrganization, issueDate, expiratio
 
 const certificationsData = [
     {
+        title: 'AWS Certified Cloud Practitioner',
+        issuingOrganization: 'Amazon Web Services (AWS)',
+        issueDate: 'Sep 2023',
+        expirationDate: 'Sep 2026',
+        logo: awsLogo,
+        credentialURL: 'https://www.credly.com/badges/ac15e2db-c930-4d43-9dc7-5f4fcdee90a5/linked_in_profile'
+    },
+    {
         title: 'AWS Certified Developer – Associate',
         issuingOrganization: 'Amazon Web Services (AWS)',
         issueDate: 'Oct 2023',
@@ -47,34 +59,51 @@ const certificationsData = [
         logo: awsLogo,
         credentialURL: 'https://www.credly.com/badges/a7475891-79e5-42b3-be08-fbbe28d39ae6/linked_in_profile'
     },
+    
+    {
+        title: 'Microsoft Certified: Azure Fundamentals',
+        issuingOrganization: 'Microsoft',
+        issueDate: 'Dec 2022',
+        logo: microsoftFundamentals,
+        credentialURL: 'https://www.credly.com/badges/a575b6d0-de8c-484e-b62d-cad63aad8846/linked_in_profile'
+    },
     {
         title: 'Microsoft Certified: Azure AI Fundamentals',
         issuingOrganization: 'Microsoft',
         issueDate: 'Oct 2023',
-        logo: microsoftLogo,
+        logo: microsoftFundamentals,
         credentialURL: 'https://learn.microsoft.com/en-gb/users/tharunkumarmaddala-6138/credentials/e11e64325db82c24'
     },
     {
         title: 'Microsoft Certified: Azure Data Fundamentals',
         issuingOrganization: 'Microsoft',
         issueDate: 'Oct 2023',
-        logo: microsoftLogo,
+        logo: microsoftFundamentals,
         credentialURL: 'https://learn.microsoft.com/en-us/users/tharunkumarmaddala-6138/credentials/ff1f01e0e05a42f'
     },
     {
-        title: 'AWS Certified Cloud Practitioner',
-        issuingOrganization: 'Amazon Web Services (AWS)',
-        issueDate: 'Sep 2023',
-        expirationDate: 'Sep 2026',
-        logo: awsLogo,
-        credentialURL: 'https://www.credly.com/badges/ac15e2db-c930-4d43-9dc7-5f4fcdee90a5/linked_in_profile'
+        title: 'Microsoft Certified: Azure Administrator Associate',
+        issuingOrganization: 'Microsoft',
+        issueDate: 'Dec 2023',
+        expirationDate: 'Dec 2024',
+        logo: microsoftAssociate,
+        credentialURL: 'https://learn.microsoft.com/api/credentials/share/en-us/TharunkumarMaddala-6138/4606B138783C1D?sharingId=3875DA5B9B8F1D57'
     },
     {
-        title: 'Microsoft Certified: Azure Fundamentals | AZ - 900',
+        title: 'Microsoft Certified: Azure Developer Associate',
         issuingOrganization: 'Microsoft',
-        issueDate: 'Dec 2022',
-        logo: microsoftLogo,
-        credentialURL: 'https://www.credly.com/badges/a575b6d0-de8c-484e-b62d-cad63aad8846/linked_in_profile'
+        issueDate: 'Dec 2023',
+        expirationDate: 'Dec 2024',
+        logo: microsoftAssociate,
+        credentialURL: 'https://learn.microsoft.com/api/credentials/share/en-us/TharunkumarMaddala-6138/AAB62E5A2F80BF7B?sharingId=3875DA5B9B8F1D57'
+    },
+    {
+        title: 'Microsoft Certified: Azure Solutions Architect Expert',
+        issuingOrganization: 'Microsoft',
+        issueDate: 'Dec 2023',
+        expirationDate: 'Dec 2024',
+        logo: microsoftExpert,
+        credentialURL: 'https://learn.microsoft.com/api/credentials/share/en-us/TharunkumarMaddala-6138/24CDDDE7BCFB11AF?sharingId=3875DA5B9B8F1D57'
     },
     {
         title: 'Python',
