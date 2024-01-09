@@ -8,7 +8,7 @@ import awards from '../assets/award.png';
 const LicenseCertification = ({ title, issuingOrganization, issueDate, expirationDate, credentialId, logo, credentialURL }) => (
     <div className="license-certification">
         <div className="certification-header">
-            <img src={logo} alt={`${issuingOrganization} Logo`} className="certification-logo" />
+            <img src={logo} alt={`${issuingOrganization} Logo`} className="certification-logo"  draggable="false" />
             <div className="certification-info">
                 <h3 className="title">{title}</h3>
                 <p className="issuing-organization">{issuingOrganization}</p>

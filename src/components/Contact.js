@@ -34,10 +34,6 @@ const Contact = () => {
             <i className="fa fa-mobile contact-icon"></i>
             &nbsp;+91 799 519 5537
           </li>
-          <li className="contact-item" style={{ cursor: 'copy' }}>
-            <i className="fa fa-location-arrow contact-icon"></i>
-            &nbsp;Venkannapalem, Nellore, Andhra Pradesh - 524405
-          </li>
         </ul>
       </div>
     </>
